@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Notes | Matthias Feys]]></title>
   <link href="http://Fematich.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-24T16:46:25+02:00</updated>
+  <updated>2014-04-24T16:53:17+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -18,7 +18,7 @@
     <link href="http://Fematich.github.io/blog/2014/04/23/python-performance-tips/"/>
     <updated>2014-04-23T22:54:35+02:00</updated>
     <id>http://Fematich.github.io/blog/2014/04/23/python-performance-tips</id>
-    <content type="html"><![CDATA[<p>There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain these improvements (and to use Python for computer-intensive tasks).
+    <content type="html"><![CDATA[<p>There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain these improvements (and to use Python for compute-intensive tasks).
 If you have encountered other interesting talks, modules, websites, tips, please feel free to inform me.</p>
 
 <h2>Python internals, general talks:</h2>
