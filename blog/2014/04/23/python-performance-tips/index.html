@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Blog Archives - Matthias Feys</title>
+	<title>Python Performance Tips - Matthias Feys</title>
 	<meta name="author" content="Matthias Feys">
 
 	
-	<meta name="description" content=" 2014 Apr 23 Notes Python Performance Tips ">
+	<meta name="description" content="Python Performance Tips There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
 
 	<link href="/atom.xml" rel="alternate" title="Matthias Feys" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://Fematich.github.io/blog/archives/">
+	<link rel="canonical" href="http://Fematich.github.io/blog/2014/04/23/python-performance-tips/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -98,33 +98,73 @@
 				
 			
 			<div class="mid-col-container">
-				<div id="content" class="inner"><div itemscope itemtype="http://schema.org/Blog">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">Python Performance Tips</h1>
+	<div class="entry-content" itemprop="articleBody"><p>There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain these improvements (and to use Python for computer-intensive tasks).
+If you have encountered other interesting talks, modules, websites, tips, please feel free to inform me.</p>
 
-	
+<h2>Python internals, general talks:</h2>
 
-
-	
-	
-	<section class="archives"><h1 class="year">2014</h1>
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2014-04-23T22:54:35+02:00" itemprop="datePublished">Apr 23</time></span>
-		<br>
-		<span class="tags">
+<ul>
+<li><a href="https://www.youtube.com/watch?v=e08kOj2kISU&amp;index=3&amp;list=LLz2z0m4r3z_g2AXkwG4EdHA">How to Speed up a Python Program 114,000 times(YouTube)</a></li>
+<li><a href="https://www.youtube.com/watch?v=rXj5nayS7Yg&amp;list=WLz2z0m4r3z_g2AXkwG4EdHA&amp;index=29">A Billion Rows per Second: Metaprogramming Python for Big Data (YouTube)</a></li>
+</ul>
 
 
-	<a class='category' href='/blog/categories/notes/'>Notes</a>
+<h2>Numpy basic tips:</h2>
+
+<ul>
+<li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
+<li><a href="http://numba.pydata.org/">Numba</a>: this is a just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators). Its goal is to seamlessly integrate with the Python scientific software stack and produce optimized native code, as well as integrate with native foreign languages. <a href="http://stackoverflow.com/questions/20428541/speeding-up-dynamic-programming-in-python-numpy">Example</a></li>
+</ul>
 
 
-</span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2014/04/23/python-performance-tips/">Python Performance Tips</a></h1>
+<h2>GPU programming:</h2>
+
+<ul>
+<li><a href="http://documen.tician.de/pycuda/">PyCuda</a></li>
+<li><a href="http://mathema.tician.de/software/pyopencl/">PyOpenCL</a></li>
+<li><a href="http://deeplearning.net/software/theano/">Theano</a></li>
+</ul>
+
+
+<h2>Other numerical optimisation modules:</h2>
+
+<p>There are optimized Python-stacks available, containing multiple usefull scientific modules.</p>
+
+<ul>
+<li><a href="http://continuum.io/downloads">Anaconda</a></li>
+<li><a href="https://www.enthought.com/products/canopy/">Canopy</a></li>
+</ul>
+
+</div>
+
 </article>
 
-  </section>
-</div></div>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
 			</div>
 			<footer id="footer" class="inner">Copyright &copy; 2014
 
@@ -140,7 +180,10 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
       var disqus_shortname = 'matthiasfeys';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://Fematich.github.io/blog/2014/04/23/python-performance-tips/';
+        var disqus_url = 'http://Fematich.github.io/blog/2014/04/23/python-performance-tips/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

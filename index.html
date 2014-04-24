@@ -9,8 +9,7 @@
 	<meta name="author" content="Matthias Feys">
 
 	
-	<meta name="description" content=" Blog Archives
-">
+	<meta name="description" content="Apr 23rd, 2014 Notes Python Performance Tips There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -101,6 +100,77 @@
 			<div class="mid-col-container">
 				<div id="content" class="inner">
 <div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-23T22:54:35+02:00" data-updated="true" itemprop="datePublished">Apr 23<span>rd</span>, 2014</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/notes/'>Notes</a>
+
+
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="/blog/2014/04/23/python-performance-tips/" itemprop="url">Python Performance Tips</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain these improvements (and to use Python for computer-intensive tasks).
+If you have encountered other interesting talks, modules, websites, tips, please feel free to inform me.</p>
+
+<h2>Python internals, general talks:</h2>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=e08kOj2kISU&amp;index=3&amp;list=LLz2z0m4r3z_g2AXkwG4EdHA">How to Speed up a Python Program 114,000 times(YouTube)</a></li>
+<li><a href="https://www.youtube.com/watch?v=rXj5nayS7Yg&amp;list=WLz2z0m4r3z_g2AXkwG4EdHA&amp;index=29">A Billion Rows per Second: Metaprogramming Python for Big Data (YouTube)</a></li>
+</ul>
+
+
+<h2>Numpy basic tips:</h2>
+
+<ul>
+<li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
+<li><a href="http://numba.pydata.org/">Numba</a>: this is a just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators). Its goal is to seamlessly integrate with the Python scientific software stack and produce optimized native code, as well as integrate with native foreign languages. <a href="http://stackoverflow.com/questions/20428541/speeding-up-dynamic-programming-in-python-numpy">Example</a></li>
+</ul>
+
+
+<h2>GPU programming:</h2>
+
+<ul>
+<li><a href="http://documen.tician.de/pycuda/">PyCuda</a></li>
+<li><a href="http://mathema.tician.de/software/pyopencl/">PyOpenCL</a></li>
+<li><a href="http://deeplearning.net/software/theano/">Theano</a></li>
+</ul>
+
+
+<h2>Other numerical optimisation modules:</h2>
+
+<p>There are optimized Python-stacks available, containing multiple usefull scientific modules.</p>
+
+<ul>
+<li><a href="http://continuum.io/downloads">Anaconda</a></li>
+<li><a href="https://www.enthought.com/products/canopy/">Canopy</a></li>
+</ul>
+
+
+		
+		
+	</div>
+
+</article>
 
 </div>
 <nav id="pagenavi">
