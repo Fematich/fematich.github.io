@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://fematich.github.io/sitemap.xml 
+Sitemap: http://Fematich.github.io/sitemap.xml 
