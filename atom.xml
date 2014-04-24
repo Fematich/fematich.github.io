@@ -4,7 +4,7 @@
   <title><![CDATA[Matthias Feys]]></title>
   <link href="http://Fematich.github.io/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-24T09:59:24+02:00</updated>
+  <updated>2014-04-24T10:01:35+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -12,14 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Python Performance Tips]]></title>
-    <link href="http://Fematich.github.io/blog/2014/04/23/python-performance-tips/"/>
-    <updated>2014-04-23T22:54:35+02:00</updated>
-    <id>http://Fematich.github.io/blog/2014/04/23/python-performance-tips</id>
-    <content type="html"><![CDATA[<p>Test</p>
-]]></content>
-  </entry>
   
 </feed>
