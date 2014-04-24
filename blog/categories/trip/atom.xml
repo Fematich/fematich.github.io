@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: trip | Matthias Feys]]></title>
+  <link href="http://Fematich.github.io/blog/categories/trip/atom.xml" rel="self"/>
+  <link href="http://Fematich.github.io/"/>
+  <updated>2014-04-24T16:40:27+02:00</updated>
+  <id>http://Fematich.github.io/</id>
+  <author>
+    <name><![CDATA[Matthias Feys]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SST London]]></title>
+    <link href="http://Fematich.github.io/blog/2014/04/18/sst-london/"/>
+    <updated>2014-04-18T16:25:21+02:00</updated>
+    <id>http://Fematich.github.io/blog/2014/04/18/sst-london</id>
+    <content type="html"><![CDATA[<p>The <a href="http://studentstartuptriplondon.be/ENG.html">Student Startup Trip</a> was a very short introduction to the world of entrepreneurs in London. Due to the collision with ECIR2014, I was only able to attend the second half of the trip.</p>
+
+<p>However, it was a very inspiring visit. The biggest lessons I learned where the big impact of working in a start-up and the always present &lsquo;failure-is-learning&rsquo; mentality of the entrepreneurs.
+I&rsquo;m looking forward to a similar trip next year!</p>
+
+<p>The trip also translated into some articles in DataNews(Dutch):</p>
+
+<ul>
+<li><a href="http://datanews.knack.be/ict/nieuws/vlaamse-studenten-ontdekken-tech-city/article-4000595060041.htm">Vlaamse studenten ontdekken Tech City</a></li>
+<li><a href="http://datanews.knack.be/ict/nieuws/vlaamse-starters-in-londen-er-komt-snel-geld-binnen-en-het-risico-is-klein/article-4000595784462.htm">Vlaamse starters in Londen: &ldquo;Er komt snel geld binnen en het risico is klein&rdquo;</a></li>
+<li><a href="http://datanews.knack.be/ict/nieuws/7-tips-voor-startende-ondernemers/article-4000596913156.htm">7 tips voor startende ondernemers</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
