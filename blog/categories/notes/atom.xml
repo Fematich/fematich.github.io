@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Notes | Matthias Feys]]></title>
   <link href="http://Fematich.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-25T13:49:00+02:00</updated>
+  <updated>2014-04-25T13:50:55+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -18,7 +18,7 @@
     <link href="http://Fematich.github.io/blog/2014/04/23/python-performance-tips/"/>
     <updated>2014-04-23T22:54:35+02:00</updated>
     <id>http://Fematich.github.io/blog/2014/04/23/python-performance-tips</id>
-    <content type="html"><![CDATA[<p>There are a lot of ways to gain massive speed improvements in Python. In this post I will make a list of ways to obtain these improvements (and to use Python for compute-intensive tasks).
+    <content type="html"><![CDATA[<p>There are a lot of ways to gain massive speed improvements in Python. In this post I will list different resources to learn how to obtain these improvements (and to use Python for compute-intensive tasks).
 If you have encountered other interesting talks, modules, websites, tips, please feel free to inform me.</p>
 
 <h2>Python internals, general talks:</h2>
@@ -27,12 +27,11 @@ If you have encountered other interesting talks, modules, websites, tips, please
 <li><a href="https://www.youtube.com/watch?v=e08kOj2kISU">How to Speed up a Python Program 114,000 times(YouTube)</a></li>
 <li><a href="https://www.youtube.com/watch?v=rXj5nayS7Yg">A Billion Rows per Second: Metaprogramming Python for Big Data (YouTube)</a></li>
 <li><a href="https://wiki.python.org/moin/PythonSpeed/PerformanceTips">general Python performance tips (old page)</a></li>
-<li><a href="http://pypy.org/performance.html">PyPy perfomance tips</a>
-Numpy basic tips:</li>
+<li><a href="http://pypy.org/performance.html">PyPy perfomance tips</a></li>
 </ul>
 
 
-<hr />
+<h2>Numpy basic tips:</h2>
 
 <ul>
 <li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
