@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Python | Matthias Feys]]></title>
   <link href="http://Fematich.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-24T17:06:44+02:00</updated>
+  <updated>2014-04-25T13:49:00+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -26,10 +26,13 @@ If you have encountered other interesting talks, modules, websites, tips, please
 <ul>
 <li><a href="https://www.youtube.com/watch?v=e08kOj2kISU">How to Speed up a Python Program 114,000 times(YouTube)</a></li>
 <li><a href="https://www.youtube.com/watch?v=rXj5nayS7Yg">A Billion Rows per Second: Metaprogramming Python for Big Data (YouTube)</a></li>
+<li><a href="https://wiki.python.org/moin/PythonSpeed/PerformanceTips">general Python performance tips (old page)</a></li>
+<li><a href="http://pypy.org/performance.html">PyPy perfomance tips</a>
+Numpy basic tips:</li>
 </ul>
 
 
-<h2>Numpy basic tips:</h2>
+<hr />
 
 <ul>
 <li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
