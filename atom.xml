@@ -4,7 +4,7 @@
   <title><![CDATA[Matthias Feys]]></title>
   <link href="http://Fematich.github.io/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-30T00:33:05+02:00</updated>
+  <updated>2014-04-30T00:56:15+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -39,12 +39,21 @@ If you have encountered other interesting talks, modules, websites, tips, please
 </ul>
 
 
-<h2>Numpy basic tips:</h2>
+<h2>Numpy tips:</h2>
 
 <ul>
 <li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
-<li><a href="http://numba.pydata.org/">Numba</a>: this is a just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators). Its goal is to seamlessly integrate with the Python scientific software stack and produce optimized native code, as well as integrate with native foreign languages. <a href="http://stackoverflow.com/questions/20428541/speeding-up-dynamic-programming-in-python-numpy">(Example)</a><a href="http://numba.pydata.org/numba-doc/dev/tutorial_firststeps.htmls">(tutorial)S</a></li>
+<li><a href="http://numba.pydata.org/">Numba</a>: this is a just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators). Its goal is to seamlessly integrate with the Python scientific software stack and produce optimized native code, as well as integrate with native foreign languages. <a href="http://stackoverflow.com/questions/20428541/speeding-up-dynamic-programming-in-python-numpy">(Example)</a><a href="http://numba.pydata.org/numba-doc/dev/tutorial_firststeps.html">(tutorial)</a></li>
 <li><a href="http://cyrille.rossant.net/numpy-performance-tricks/">Numpy performance tricks</a></li>
+<li><a href="http://www.youtube.com/watch?v=HFxn3mSp9ww">Vector Byte Code (cphVB) (YouTube)</a></li>
+</ul>
+
+
+<h2>Distributed computing:</h2>
+
+<ul>
+<li><a href="http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/">Hadoop MapReduce in Python</a></li>
+<li><a href="http://discoproject.org/">Disco MapReduce</a> <a href="http://www.youtube.com/watch?v=ofCddrXkw0U">(YouTube talk)</a></li>
 </ul>
 
 
