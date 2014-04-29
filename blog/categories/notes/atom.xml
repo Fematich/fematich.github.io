@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Notes | Matthias Feys]]></title>
   <link href="http://Fematich.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-04-29T10:52:16+02:00</updated>
+  <updated>2014-04-29T10:59:46+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -44,10 +44,12 @@ If you have encountered other interesting talks, modules, websites, tips, please
 <ul>
 <li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">Numpy tutorial</a></li>
 <li><a href="http://numba.pydata.org/">Numba</a>: this is a just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators). Its goal is to seamlessly integrate with the Python scientific software stack and produce optimized native code, as well as integrate with native foreign languages. <a href="http://stackoverflow.com/questions/20428541/speeding-up-dynamic-programming-in-python-numpy">Example</a></li>
+<li><a href="http://cyrille.rossant.net/numpy-performance-tricks/">Numpy performance tricks</a>
+GPU programming:</li>
 </ul>
 
 
-<h2>GPU programming:</h2>
+<hr />
 
 <ul>
 <li><a href="http://documen.tician.de/pycuda/">PyCuda</a></li>
