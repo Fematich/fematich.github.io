@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Notes | Matthias Feys]]></title>
   <link href="http://Fematich.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://Fematich.github.io/"/>
-  <updated>2014-05-19T09:46:59+02:00</updated>
+  <updated>2014-05-19T11:28:10+02:00</updated>
   <id>http://Fematich.github.io/</id>
   <author>
     <name><![CDATA[Matthias Feys]]></name>
@@ -78,7 +78,7 @@ If you have encountered other interesting talks, modules, websites, tips, please
 </ul>
 
 
-<h2>Other numerical optimisation modules:</h2>
+<h2>Scientific Python Distributions:</h2>
 
 <p>There are optimized Python distributions available, containing multiple usefull scientific modules.</p>
 
